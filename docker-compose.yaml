@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  etebase-notes-builder:
+    image: karbon15/etebase-notes-builder:latest
+    volumes:
+      - /var/www/static/etesync-web:/output
