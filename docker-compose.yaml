@@ -4,4 +4,4 @@ services:
   etebase-notes-builder:
     image: karbon15/etebase-notes-builder:latest
     volumes:
-      - /var/www/static/etesync-web:/output
+      - /var/www/static/etesync-notes:/output
